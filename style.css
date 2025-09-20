@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #c9f2ff, #f7f7f7);
+}
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+}
+canvas {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,.1);
+}
+.ui {
+  padding: 10px;
+}
+button {
+  background: #0b63ff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover { background: #084bcc; }
+.leaderboard {
+  margin-top: 15px;
+}

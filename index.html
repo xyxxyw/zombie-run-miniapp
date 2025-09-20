@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Zombie Run</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <canvas id="game" width="800" height="200"></canvas>
+  </div>
+
+  <div class="ui">
+    <h1>🧟 Zombie Run</h1>
+    <button id="restart">Restart</button>
+    <div class="hint">↑ / Space lompat • ↓ menunduk • Klik/Tap lompat</div>
+    <div class="username-box">
+      <input type="text" id="username" placeholder="Username..." />
+      <button id="save-username">Set Username</button>
+    </div>
+    <div class="leaderboard">
+      <h2>🏆 Leaderboard</h2>
+      <ol id="leaderboard-list"></ol>
+    </div>
+  </div>
+
+  <script src="supabase.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
